@@ -6,5 +6,10 @@
         "psr-0": {
             "UnitTestFiles": ""
         }
+    },
+    "scripts": {
+        "test": [
+            "phpunit --configuration phpunit.xml"
+        ]
     }
 }
