@@ -1,3 +1,3 @@
-[![Build Status](https://travis-ci.com/snuzi/phpunit-test.svg?branch=master)](https://travis-ci.com/snuzi/phpunit-test)
+[![Build Status](https://travis-ci.org/snuzi/phpunit-test.svg?branch=master)](https://travis-ci.org/snuzi/phpunit-test)
 
 # phpunit-test
