@@ -18,7 +18,7 @@ jobs:
     script:
       - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
       #- docker push snuzi/phpunit-test
-      - DOCKER_PREFIX="snuuzi/phpunit-test"
+      - DOCKER_PREFIX="snuzi/phpunit-test"
       # Use $TRAVIS_PULL_REQUEST_BRANCH for Pull Request builds and fall back to $TRAVIS_BRANCH for Branch Push builds.
       - DOCKER_TAG=`echo "${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}" | sed -e 's/[^A-Za-z0-9-]\+/_/g'`
       - DOCKER_IMAGE="$DOCKER_PREFIX:$DOCKER_TAG"
